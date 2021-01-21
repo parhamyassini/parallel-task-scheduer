@@ -40,7 +40,7 @@ Tasks are instances of functions that should be executed and the dependencies be
 
 > Note: Throughout this project and in the source codes, we use the term "parent of the task" for a task that depends on that task. For example, in the shown task dependency graph, T3 and T2 are parents of the T1 task since they should be executed after T1.
 
-![Example DAG](../docs/dag-example.png)
+![Example DAG](./docs/dag-example.png)
 
 ## Task Deceleration
 In the *Task* class, user can define the function interface and the parameters each task should hold. In the main thread, user just needs to make new instances of the *Task* class and make a vector of Tasks.
